@@ -1,0 +1,17 @@
+{
+  "name": "ci-aula1",
+  "version": "1.0.0",
+  "description": "Demo de Integracao Continua com Node.js e Jest",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --coverage --ci",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
